@@ -1,0 +1,371 @@
+10:21:35.959 [main] INFO  io.pedestal.http - {:msg "GET /", :line 80}
+10:21:35.992 [main] INFO  io.pedestal.http - {:msg "GET /", :line 80}
+10:21:35.999 [main] INFO  io.pedestal.http - {:msg "GET /about", :line 80}
+10:21:36.003 [main] INFO  io.pedestal.http - {:msg "GET /about", :line 80}
+10:24:53.761 [main] INFO  io.pedestal.http - {:msg "GET /", :line 80}
+10:24:53.795 [main] INFO  io.pedestal.http - {:msg "GET /", :line 80}
+10:24:53.800 [main] INFO  io.pedestal.http - {:msg "GET /about", :line 80}
+10:24:53.803 [main] INFO  io.pedestal.http - {:msg "GET /about", :line 80}
+10:28:03.866 [main] INFO  io.pedestal.http - {:msg "GET /", :line 80}
+10:28:03.894 [main] INFO  io.pedestal.http - {:msg "GET /", :line 80}
+10:28:03.900 [main] INFO  io.pedestal.http - {:msg "GET /about", :line 80}
+10:28:03.904 [main] INFO  io.pedestal.http - {:msg "GET /about", :line 80}
+10:29:41.517 [main] INFO  io.pedestal.http - {:msg "GET /", :line 80}
+10:29:41.544 [main] INFO  io.pedestal.http - {:msg "GET /", :line 80}
+10:47:21.069 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+10:48:31.908 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+10:49:01.343 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+10:49:56.593 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+10:49:56.715 [main] INFO  org.mongodb.driver.cluster - No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=127.0.0.1:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+10:49:56.747 [cluster-ClusterId{value='5b23c40456e20b480e8a14d1', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:104}] to 127.0.0.1:27017
+10:49:56.754 [cluster-ClusterId{value='5b23c40456e20b480e8a14d1', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 5]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, roundTripTimeNanos=2387576}
+10:49:56.772 [main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:105}] to 127.0.0.1:27017
+10:51:05.731 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+10:51:05.825 [main] INFO  org.mongodb.driver.cluster - No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=127.0.0.1:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+10:51:05.871 [cluster-ClusterId{value='5b23c44956e20b485b512d97', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:106}] to 127.0.0.1:27017
+10:51:05.879 [cluster-ClusterId{value='5b23c44956e20b485b512d97', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 5]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, roundTripTimeNanos=4898019}
+10:51:05.892 [main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:107}] to 127.0.0.1:27017
+10:51:29.808 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+10:51:29.885 [main] INFO  org.mongodb.driver.cluster - No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=127.0.0.1:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+10:51:29.958 [cluster-ClusterId{value='5b23c46156e20b4893017eaf', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:108}] to 127.0.0.1:27017
+10:51:29.966 [cluster-ClusterId{value='5b23c46156e20b4893017eaf', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 5]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, roundTripTimeNanos=3245361}
+10:51:29.990 [main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:109}] to 127.0.0.1:27017
+10:57:00.429 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+10:57:00.516 [main] INFO  org.mongodb.driver.cluster - No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=127.0.0.1:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+10:57:00.560 [cluster-ClusterId{value='5b23c5ac56e20b49c1d1fd17', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:110}] to 127.0.0.1:27017
+10:57:00.573 [cluster-ClusterId{value='5b23c5ac56e20b49c1d1fd17', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 5]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, roundTripTimeNanos=7838975}
+10:57:00.591 [main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:111}] to 127.0.0.1:27017
+11:17:40.437 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:17:40.511 [main] INFO  org.mongodb.driver.cluster - No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=127.0.0.1:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+11:17:40.554 [cluster-ClusterId{value='5b23ca8456e20b4c70089769', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:112}] to 127.0.0.1:27017
+11:17:40.562 [cluster-ClusterId{value='5b23ca8456e20b4c70089769', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 5]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, roundTripTimeNanos=1257117}
+11:17:40.576 [main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:113}] to 127.0.0.1:27017
+11:19:56.095 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:21:58.178 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:21:58.278 [main] INFO  org.mongodb.driver.cluster - No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=127.0.0.1:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+11:21:58.317 [cluster-ClusterId{value='5b23cb8656e20b4d7cce8abc', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:115}] to 127.0.0.1:27017
+11:21:58.322 [cluster-ClusterId{value='5b23cb8656e20b4d7cce8abc', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 5]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, roundTripTimeNanos=1098716}
+11:21:58.333 [main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:116}] to 127.0.0.1:27017
+11:35:49.310 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:39:52.017 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:39:52.543 [main] INFO  org.mongodb.driver.cluster - No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=127.0.0.1:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+11:39:53.135 [cluster-ClusterId{value='5b23cfb856e20b51e78b94ed', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:117}] to 127.0.0.1:27017
+11:39:53.149 [cluster-ClusterId{value='5b23cfb856e20b51e78b94ed', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 5]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, roundTripTimeNanos=6429720}
+11:39:53.160 [main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:118}] to 127.0.0.1:27017
+11:39:53.376 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:39:53.399 [cluster-ClusterId{value='5b23cfb956e20b51e78b94ee', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:119}] to 127.0.0.1:27017
+11:39:53.400 [cluster-ClusterId{value='5b23cfb956e20b51e78b94ee', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 5]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, roundTripTimeNanos=895623}
+11:40:29.349 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:40:29.411 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:41:21.081 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:43:18.751 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:44:02.849 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:44:02.999 [cluster-ClusterId{value='5b23d0b256e20b52d2dbf43f', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:124}] to 127.0.0.1:27017
+11:44:03.024 [cluster-ClusterId{value='5b23d0b256e20b52d2dbf43f', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 5]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, roundTripTimeNanos=4570201}
+11:44:03.056 [main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:125}] to 127.0.0.1:27017
+11:44:56.309 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:44:56.437 [cluster-ClusterId{value='5b23d0e856e20b530f0a749b', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:126}] to 127.0.0.1:27017
+11:44:56.458 [cluster-ClusterId{value='5b23d0e856e20b530f0a749b', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 5]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, roundTripTimeNanos=2468145}
+11:44:56.530 [main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:127}] to 127.0.0.1:27017
+11:45:39.600 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:45:39.704 [main] INFO  org.mongodb.driver.cluster - No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=127.0.0.1:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+11:45:39.743 [cluster-ClusterId{value='5b23d11356e20b5344a6e393', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:128}] to 127.0.0.1:27017
+11:45:39.748 [cluster-ClusterId{value='5b23d11356e20b5344a6e393', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 5]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, roundTripTimeNanos=1287154}
+11:45:39.763 [main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:129}] to 127.0.0.1:27017
+15:35:15.552 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+15:37:08.128 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+15:49:21.788 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+15:50:26.637 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+15:50:57.470 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+15:52:50.693 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+15:53:44.066 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+15:53:44.178 [cluster-ClusterId{value='5b240b3856e20b5ec8dc0077', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:136}] to 127.0.0.1:27017
+15:53:44.182 [cluster-ClusterId{value='5b240b3856e20b5ec8dc0077', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 5]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, roundTripTimeNanos=1352468}
+15:54:59.167 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+15:55:51.956 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+15:55:52.069 [cluster-ClusterId{value='5b240bb756e20b5f3f79be40', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:138}] to 127.0.0.1:27017
+15:57:05.825 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16:12:30.991 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16:12:31.098 [cluster-ClusterId{value='5b240f9e56e20b63a7a9b06d', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:140}] to 127.0.0.1:27017
+16:12:31.110 [cluster-ClusterId{value='5b240f9e56e20b63a7a9b06d', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 5]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, roundTripTimeNanos=4123338}
+16:13:43.414 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16:20:33.972 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16:20:34.054 [main] INFO  org.mongodb.driver.cluster - No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=127.0.0.1:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+16:20:34.094 [cluster-ClusterId{value='5b24118156e20b652f27afad', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:142}] to 127.0.0.1:27017
+16:20:34.102 [cluster-ClusterId{value='5b24118156e20b652f27afad', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 5]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, roundTripTimeNanos=1897736}
+16:20:34.123 [main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:143}] to 127.0.0.1:27017
+16:21:04.430 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16:21:04.500 [main] INFO  org.mongodb.driver.cluster - No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=127.0.0.1:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+16:21:04.535 [cluster-ClusterId{value='5b2411a056e20b6580d0bfdc', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:144}] to 127.0.0.1:27017
+16:21:04.540 [cluster-ClusterId{value='5b2411a056e20b6580d0bfdc', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 5]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, roundTripTimeNanos=1116226}
+16:21:04.552 [main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:145}] to 127.0.0.1:27017
+16:21:44.493 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16:21:44.569 [main] INFO  org.mongodb.driver.cluster - No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=127.0.0.1:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+16:21:44.615 [cluster-ClusterId{value='5b2411c856e20b65d138b956', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:146}] to 127.0.0.1:27017
+16:21:44.623 [cluster-ClusterId{value='5b2411c856e20b65d138b956', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 5]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, roundTripTimeNanos=4050073}
+16:21:44.642 [main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:147}] to 127.0.0.1:27017
+16:25:12.434 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16:25:12.498 [main] INFO  org.mongodb.driver.cluster - No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=127.0.0.1:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+16:25:12.542 [cluster-ClusterId{value='5b24129856e20b66d46cc3a7', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:148}] to 127.0.0.1:27017
+16:25:12.549 [cluster-ClusterId{value='5b24129856e20b66d46cc3a7', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 5]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, roundTripTimeNanos=2360541}
+16:25:12.562 [main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:149}] to 127.0.0.1:27017
+16:27:31.600 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @12622ms to org.eclipse.jetty.util.log.Slf4jLog
+16:27:32.113 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.0.v20161208
+16:27:32.211 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@66f73d3d{/,null,AVAILABLE}
+16:27:32.551 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@459447ec{HTTP/1.1,[http/1.1, h2c]}{localhost:8080}
+16:27:32.553 [main] INFO  org.eclipse.jetty.server.Server - Started @13592ms
+16:27:36.860 [qtp2120111758-16] INFO  io.pedestal.http - {:msg "GET /vehicles", :line 80}
+16:27:36.972 [qtp2120111758-16] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16:27:37.129 [qtp2120111758-16] INFO  org.mongodb.driver.cluster - No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=127.0.0.1:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+16:27:37.131 [cluster-ClusterId{value='5b24132856e20b673fc9dc7d', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:150}] to 127.0.0.1:27017
+16:27:37.135 [cluster-ClusterId{value='5b24132856e20b673fc9dc7d', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 5]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, roundTripTimeNanos=2364203}
+16:27:37.150 [qtp2120111758-16] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:151}] to 127.0.0.1:27017
+16:28:49.312 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @10309ms to org.eclipse.jetty.util.log.Slf4jLog
+16:28:49.569 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.0.v20161208
+16:28:49.616 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@66f73d3d{/,null,AVAILABLE}
+16:28:49.907 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@6f798e5a{HTTP/1.1,[http/1.1, h2c]}{localhost:8080}
+16:28:49.908 [main] INFO  org.eclipse.jetty.server.Server - Started @10908ms
+16:28:55.061 [qtp2120111758-16] INFO  io.pedestal.http - {:msg "GET /vehicles", :line 80}
+16:28:55.152 [qtp2120111758-16] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16:28:55.237 [qtp2120111758-16] INFO  org.mongodb.driver.cluster - No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=127.0.0.1:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+16:28:55.250 [cluster-ClusterId{value='5b24137756e20b67a6687a1a', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:152}] to 127.0.0.1:27017
+16:28:55.255 [cluster-ClusterId{value='5b24137756e20b67a6687a1a', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 5]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, roundTripTimeNanos=2283808}
+16:28:55.270 [qtp2120111758-16] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:153}] to 127.0.0.1:27017
+16:28:55.402 [qtp2120111758-16] ERROR i.p.http.impl.servlet-interceptor - {:msg "error-stylobate triggered", :context {:response {:status 200, :headers {"Strict-Transport-Security" "max-age=31536000; includeSubdomains", "X-Frame-Options" "DENY", "X-Content-Type-Options" "nosniff", "X-XSS-Protection" "1; mode=block", "X-Download-Options" "noopen", "X-Permitted-Cross-Domain-Policies" "none", "Content-Security-Policy" "object-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' https: http:;", "Content-Type" "application/json;charset=UTF-8"}, :body #object[io.pedestal.http$print_fn$fn__14081 0x4dadefec "io.pedestal.http$print_fn$fn__14081@4dadefec"]}, :io.pedestal.interceptor.chain/stack (#Interceptor{:name :io.pedestal.http.impl.servlet-interceptor/terminator-injector}), :request {:protocol "HTTP/1.1", :async-supported? true, :remote-addr "127.0.0.1", :servlet-response #object[org.eclipse.jetty.server.Response 0x40efa276 "HTTP/1.1 200 \nDate: Fri, 15 Jun 2018 19:28:55 GMT\r\nStrict-Transport-Security: max-age=31536000; includeSubdomains\r\nX-Frame-Options: DENY\r\nX-Content-Type-Options: nosniff\r\nX-XSS-Protection: 1; mode=block\r\nX-Download-Options: noopen\r\nX-Permitted-Cross-Domain-Policies: none\r\nContent-Security-Policy: object-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' https: http:;\r\nContent-Type: application/json;charset=UTF-8\r\n\r\n"], :servlet #object[io.pedestal.http.servlet.FnServlet 0xc2ea09d "io.pedestal.http.servlet.FnServlet@c2ea09d"], :headers {"cache-control" "no-cache", "accept" "*/*", "connection" "keep-alive", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36", "host" "localhost:8080", "postman-token" "665e5055-f343-f029-90cb-fc12c137b70c", "accept-encoding" "gzip, deflate, br", "accept-language" "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"}, :server-port 8080, :servlet-request #object[org.eclipse.jetty.server.Request 0xe146c78 "Request(GET //localhost:8080/vehicles)@e146c78"], :path-info "/vehicles", :url-for #object[clojure.lang.Delay 0x452c7d1a {:status :pending, :val nil}], :uri "/vehicles", :server-name "localhost", :query-string nil, :path-params [], :body #object[org.eclipse.jetty.server.HttpInputOverHTTP 0xc17b886 "HttpInputOverHTTP@c17b886[c=0,q=0,[0]=null,s=STREAM]"], :scheme :http, :request-method :get}, :bindings {#'io.pedestal.http.route/*url-for* #object[clojure.lang.Delay 0x452c7d1a {:status :pending, :val nil}]}, :enter-async [#object[io.pedestal.http.impl.servlet_interceptor$start_servlet_async 0x2a41a4f7 "io.pedestal.http.impl.servlet_interceptor$start_servlet_async@2a41a4f7"]], :io.pedestal.interceptor.chain/terminators (#object[io.pedestal.http.impl.servlet_interceptor$terminator_inject$fn__13975 0x1ff11520 "io.pedestal.http.impl.servlet_interceptor$terminator_inject$fn__13975@1ff11520"]), :servlet-response #object[org.eclipse.jetty.server.Response 0x40efa276 "HTTP/1.1 200 \nDate: Fri, 15 Jun 2018 19:28:55 GMT\r\nStrict-Transport-Security: max-age=31536000; includeSubdomains\r\nX-Frame-Options: DENY\r\nX-Content-Type-Options: nosniff\r\nX-XSS-Protection: 1; mode=block\r\nX-Download-Options: noopen\r\nX-Permitted-Cross-Domain-Policies: none\r\nContent-Security-Policy: object-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' https: http:;\r\nContent-Type: application/json;charset=UTF-8\r\n\r\n"], :route {:path "/vehicles", :method :get, :path-re #"/\Qvehicles\E", :path-parts ["vehicles"], :interceptors [#Interceptor{:name :io.pedestal.http.body-params/body-params} #Interceptor{:name :io.pedestal.http/html-body} #Interceptor{:name }], :route-name :simple-cljapi.service/vehicles-list, :path-params [], :io.pedestal.http.route.prefix-tree/satisfies-constraints? #object[clojure.core$constantly$fn__4614 0x2f5c99be "clojure.core$constantly$fn__4614@2f5c99be"]}, :servlet #object[io.pedestal.http.servlet.FnServlet 0xc2ea09d "io.pedestal.http.servlet.FnServlet@c2ea09d"], :servlet-request #object[org.eclipse.jetty.server.Request 0xe146c78 "Request(GET //localhost:8080/vehicles)@e146c78"], :url-for #object[clojure.lang.Delay 0x452c7d1a {:status :pending, :val nil}], :io.pedestal.interceptor.chain/execution-id 1, :servlet-config #object[org.eclipse.jetty.servlet.ServletHolder$Config 0x1495bc5c "org.eclipse.jetty.servlet.ServletHolder$Config@1495bc5c"], :async? #object[io.pedestal.http.impl.servlet_interceptor$servlet_async_QMARK_ 0x79f11451 "io.pedestal.http.impl.servlet_interceptor$servlet_async_QMARK_@79f11451"]}, :line 241}
+clojure.lang.ExceptionInfo: clojure.lang.ArityException in Interceptor :io.pedestal.http.impl.servlet-interceptor/ring-response - Wrong number of args (2) passed to: core/assoc--4371
+	at clojure.core$ex_info.invokeStatic(core.clj:4617)
+	at clojure.core$ex_info.invoke(core.clj:4617)
+	at io.pedestal.interceptor.chain$throwable__GT_ex_info.invokeStatic(chain.clj:35)
+	at io.pedestal.interceptor.chain$throwable__GT_ex_info.invoke(chain.clj:32)
+	at io.pedestal.interceptor.chain$try_f.invokeStatic(chain.clj:57)
+	at io.pedestal.interceptor.chain$try_f.invoke(chain.clj:44)
+	at io.pedestal.interceptor.chain$leave_all_with_binding.invokeStatic(chain.clj:254)
+	at io.pedestal.interceptor.chain$leave_all_with_binding.invoke(chain.clj:237)
+	at io.pedestal.interceptor.chain$leave_all$fn__9151.invoke(chain.clj:268)
+	at clojure.lang.AFn.applyToHelper(AFn.java:152)
+	at clojure.lang.AFn.applyTo(AFn.java:144)
+	at clojure.core$apply.invokeStatic(core.clj:646)
+	at clojure.core$with_bindings_STAR_.invokeStatic(core.clj:1881)
+	at clojure.core$with_bindings_STAR_.doInvoke(core.clj:1881)
+	at clojure.lang.RestFn.invoke(RestFn.java:425)
+	at io.pedestal.interceptor.chain$leave_all.invokeStatic(chain.clj:266)
+	at io.pedestal.interceptor.chain$leave_all.invoke(chain.clj:260)
+	at io.pedestal.interceptor.chain$execute.invokeStatic(chain.clj:379)
+	at io.pedestal.interceptor.chain$execute.invoke(chain.clj:352)
+	at io.pedestal.interceptor.chain$execute.invokeStatic(chain.clj:389)
+	at io.pedestal.interceptor.chain$execute.invoke(chain.clj:352)
+	at io.pedestal.http.impl.servlet_interceptor$interceptor_service_fn$fn__14000.invoke(servlet_interceptor.clj:350)
+	at io.pedestal.http.servlet.FnServlet.service(servlet.clj:28)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:838)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:543)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1228)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:481)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1130)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:564)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:318)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:112)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:672)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:590)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: clojure.lang.ArityException: Wrong number of args (2) passed to: core/assoc--4371
+	at clojure.lang.AFn.throwArity(AFn.java:429)
+	at clojure.lang.RestFn.invoke(RestFn.java:427)
+	at simple_cljapi.service$get_vehicles$iter__14913__14917$fn__14918.invoke(service.clj:33)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:521)
+	at clojure.core$seq__4357.invokeStatic(core.clj:137)
+	at clojure.core$seq__4357.invoke(core.clj:137)
+	at cheshire.generate$generate.invokeStatic(generate.clj:132)
+	at cheshire.generate$generate.invoke(generate.clj:116)
+	at cheshire.core$generate_stream.invokeStatic(core.clj:105)
+	at cheshire.core$generate_stream.invoke(core.clj:80)
+	at cheshire.core$generate_stream.invokeStatic(core.clj:87)
+	at cheshire.core$generate_stream.invoke(core.clj:80)
+	at io.pedestal.http$json_print.invokeStatic(http.clj:59)
+	at io.pedestal.http$json_print.invoke(http.clj:56)
+	at io.pedestal.http$json_response$fn__14091.invoke(http.clj:64)
+	at io.pedestal.http$print_fn$fn__14081$fn__14082.invoke(http.clj:42)
+	at io.pedestal.http$print_fn$fn__14081.invoke(http.clj:41)
+	at io.pedestal.http.impl.servlet_interceptor$eval13647$fn__13650.invoke(servlet_interceptor.clj:66)
+	at io.pedestal.http.impl.servlet_interceptor$eval13597$fn__13598$G__13588__13605.invoke(servlet_interceptor.clj:37)
+	at io.pedestal.http.impl.servlet_interceptor$write_body.invokeStatic(servlet_interceptor.clj:92)
+	at io.pedestal.http.impl.servlet_interceptor$write_body.invoke(servlet_interceptor.clj:90)
+	at io.pedestal.http.impl.servlet_interceptor$send_response.invokeStatic(servlet_interceptor.clj:169)
+	at io.pedestal.http.impl.servlet_interceptor$send_response.invoke(servlet_interceptor.clj:161)
+	at io.pedestal.http.impl.servlet_interceptor$leave_ring_response.invokeStatic(servlet_interceptor.clj:228)
+	at io.pedestal.http.impl.servlet_interceptor$leave_ring_response.invoke(servlet_interceptor.clj:217)
+	at io.pedestal.interceptor.chain$try_f.invokeStatic(chain.clj:54)
+	... 37 common frames omitted
+16:29:23.206 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @12022ms to org.eclipse.jetty.util.log.Slf4jLog
+16:29:23.510 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.0.v20161208
+16:29:23.608 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@66f73d3d{/,null,AVAILABLE}
+16:29:24.220 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@81d6c1e{HTTP/1.1,[http/1.1, h2c]}{localhost:8080}
+16:29:24.221 [main] INFO  org.eclipse.jetty.server.Server - Started @13040ms
+16:29:51.239 [qtp2120111758-15] INFO  io.pedestal.http - {:msg "GET /vehicles", :line 80}
+16:29:51.331 [qtp2120111758-15] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16:29:51.422 [qtp2120111758-15] INFO  org.mongodb.driver.cluster - No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=127.0.0.1:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+16:29:51.429 [cluster-ClusterId{value='5b2413af56e20b67f6b55586', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:154}] to 127.0.0.1:27017
+16:29:51.434 [cluster-ClusterId{value='5b2413af56e20b67f6b55586', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 5]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, roundTripTimeNanos=1294024}
+16:29:51.456 [qtp2120111758-15] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:155}] to 127.0.0.1:27017
+16:32:19.093 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @10918ms to org.eclipse.jetty.util.log.Slf4jLog
+16:32:19.422 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.0.v20161208
+16:32:19.471 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@c822a3{/,null,AVAILABLE}
+16:32:19.928 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@6ca257de{HTTP/1.1,[http/1.1, h2c]}{localhost:8080}
+16:32:19.929 [main] INFO  org.eclipse.jetty.server.Server - Started @11757ms
+16:33:00.012 [qtp215451422-15] INFO  io.pedestal.http - {:msg "GET /vehicles", :line 80}
+16:33:00.111 [qtp215451422-15] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16:33:00.197 [qtp215451422-15] INFO  org.mongodb.driver.cluster - No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=127.0.0.1:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+16:33:00.251 [cluster-ClusterId{value='5b24146c56e20b68ae8d90c4', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:156}] to 127.0.0.1:27017
+16:33:00.256 [cluster-ClusterId{value='5b24146c56e20b68ae8d90c4', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 5]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, roundTripTimeNanos=2280869}
+16:33:00.275 [qtp215451422-15] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:157}] to 127.0.0.1:27017
+16:33:11.902 [qtp215451422-14] INFO  io.pedestal.http - {:msg "GET /vehicles", :line 80}
+16:33:11.911 [qtp215451422-14] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16:33:11.918 [qtp215451422-14] INFO  org.mongodb.driver.cluster - No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=127.0.0.1:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+16:33:11.923 [cluster-ClusterId{value='5b24147756e20b68ae8d90c5', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:158}] to 127.0.0.1:27017
+16:33:11.927 [cluster-ClusterId{value='5b24147756e20b68ae8d90c5', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 5]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, roundTripTimeNanos=2582502}
+16:33:11.941 [qtp215451422-14] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:4, serverValue:159}] to 127.0.0.1:27017
+16:34:21.552 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @10864ms to org.eclipse.jetty.util.log.Slf4jLog
+16:34:21.809 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.0.v20161208
+16:34:21.868 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2c427287{/,null,AVAILABLE}
+16:34:22.145 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@cbbc0ac{HTTP/1.1,[http/1.1, h2c]}{localhost:8080}
+16:34:22.146 [main] INFO  org.eclipse.jetty.server.Server - Started @11461ms
+16:36:20.189 [qtp1115240385-15] INFO  io.pedestal.http - {:msg "GET /vehicles", :line 80}
+16:36:20.299 [qtp1115240385-15] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16:36:20.379 [qtp1115240385-15] INFO  org.mongodb.driver.cluster - No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=127.0.0.1:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+16:36:20.420 [cluster-ClusterId{value='5b24153456e20b6972b96d88', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:160}] to 127.0.0.1:27017
+16:36:20.425 [cluster-ClusterId{value='5b24153456e20b6972b96d88', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 5]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, roundTripTimeNanos=2143954}
+16:36:20.441 [qtp1115240385-15] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:161}] to 127.0.0.1:27017
+16:37:18.123 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @13110ms to org.eclipse.jetty.util.log.Slf4jLog
+16:37:18.377 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.0.v20161208
+16:37:18.437 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2c427287{/,null,AVAILABLE}
+16:37:18.714 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@670f93dd{HTTP/1.1,[http/1.1, h2c]}{localhost:8080}
+16:37:18.714 [main] INFO  org.eclipse.jetty.server.Server - Started @13705ms
+16:37:23.914 [qtp1115240385-15] INFO  io.pedestal.http - {:msg "GET /vehicles", :line 80}
+16:37:23.960 [qtp1115240385-15] ERROR i.p.http.impl.servlet-interceptor - {:msg "error-ring-response triggered", :context {:response nil, :io.pedestal.interceptor.chain/stack (#Interceptor{:name :io.pedestal.http.impl.servlet-interceptor/stylobate} #Interceptor{:name :io.pedestal.http.impl.servlet-interceptor/terminator-injector}), :request {:protocol "HTTP/1.1", :async-supported? true, :remote-addr "127.0.0.1", :params {nil "red"}, :servlet-response #object[org.eclipse.jetty.server.Response 0x1d12610e "HTTP/1.1 200 \nDate: Fri, 15 Jun 2018 19:37:23 GMT\r\n\r\n"], :servlet #object[io.pedestal.http.servlet.FnServlet 0x15416f87 "io.pedestal.http.servlet.FnServlet@15416f87"], :headers {"cache-control" "no-cache", "accept" "*/*", "connection" "keep-alive", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36", "host" "localhost:8080", "postman-token" "2287ebe8-5fd6-ffbc-d01a-0f02ff9d87da", "accept-encoding" "gzip, deflate, br", "accept-language" "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"}, :server-port 8080, :servlet-request #object[org.eclipse.jetty.server.Request 0x784899f6 "Request(GET //localhost:8080/vehicles?red)@784899f6"], :query-params {nil "red"}, :path-info "/vehicles", :url-for #object[clojure.lang.Delay 0x2fb76076 {:status :pending, :val nil}], :uri "/vehicles", :server-name "localhost", :query-string "red", :path-params [], :body #object[org.eclipse.jetty.server.HttpInputOverHTTP 0x60697344 "HttpInputOverHTTP@60697344[c=0,q=0,[0]=null,s=STREAM]"], :scheme :http, :request-method :get}, :bindings {#'io.pedestal.http.route/*url-for* #object[clojure.lang.Delay 0x2fb76076 {:status :pending, :val nil}]}, :enter-async [#object[io.pedestal.http.impl.servlet_interceptor$start_servlet_async 0x2f3f273 "io.pedestal.http.impl.servlet_interceptor$start_servlet_async@2f3f273"]], :io.pedestal.interceptor.chain/terminators (#object[io.pedestal.http.impl.servlet_interceptor$terminator_inject$fn__13975 0x15951649 "io.pedestal.http.impl.servlet_interceptor$terminator_inject$fn__13975@15951649"]), :servlet-response #object[org.eclipse.jetty.server.Response 0x1d12610e "HTTP/1.1 200 \nDate: Fri, 15 Jun 2018 19:37:23 GMT\r\n\r\n"], :route {:path "/vehicles", :method :get, :path-re #"/\Qvehicles\E", :path-parts ["vehicles"], :interceptors [#Interceptor{:name :io.pedestal.http.body-params/body-params} #Interceptor{:name :io.pedestal.http/html-body} #Interceptor{:name }], :route-name :simple-cljapi.service/vehicles-list, :path-params [], :io.pedestal.http.route.prefix-tree/satisfies-constraints? #object[clojure.core$constantly$fn__4614 0x13109e06 "clojure.core$constantly$fn__4614@13109e06"]}, :servlet #object[io.pedestal.http.servlet.FnServlet 0x15416f87 "io.pedestal.http.servlet.FnServlet@15416f87"], :servlet-request #object[org.eclipse.jetty.server.Request 0x784899f6 "Request(GET //localhost:8080/vehicles?red)@784899f6"], :url-for #object[clojure.lang.Delay 0x2fb76076 {:status :pending, :val nil}], :io.pedestal.interceptor.chain/execution-id 1, :servlet-config #object[org.eclipse.jetty.servlet.ServletHolder$Config 0x5b0f3090 "org.eclipse.jetty.servlet.ServletHolder$Config@5b0f3090"], :async? #object[io.pedestal.http.impl.servlet_interceptor$servlet_async_QMARK_ 0x3520b0d8 "io.pedestal.http.impl.servlet_interceptor$servlet_async_QMARK_@3520b0d8"]}, :line 252}
+clojure.lang.ExceptionInfo: clojure.lang.ArityException in Interceptor  - Wrong number of args (1) passed to: core/get
+	at clojure.core$ex_info.invokeStatic(core.clj:4617)
+	at clojure.core$ex_info.invoke(core.clj:4617)
+	at io.pedestal.interceptor.chain$throwable__GT_ex_info.invokeStatic(chain.clj:35)
+	at io.pedestal.interceptor.chain$throwable__GT_ex_info.invoke(chain.clj:32)
+	at io.pedestal.interceptor.chain$try_f.invokeStatic(chain.clj:57)
+	at io.pedestal.interceptor.chain$try_f.invoke(chain.clj:44)
+	at io.pedestal.interceptor.chain$process_all_with_binding.invokeStatic(chain.clj:171)
+	at io.pedestal.interceptor.chain$process_all_with_binding.invoke(chain.clj:146)
+	at io.pedestal.interceptor.chain$process_all$fn__9124.invoke(chain.clj:188)
+	at clojure.lang.AFn.applyToHelper(AFn.java:152)
+	at clojure.lang.AFn.applyTo(AFn.java:144)
+	at clojure.core$apply.invokeStatic(core.clj:646)
+	at clojure.core$with_bindings_STAR_.invokeStatic(core.clj:1881)
+	at clojure.core$with_bindings_STAR_.doInvoke(core.clj:1881)
+	at clojure.lang.RestFn.invoke(RestFn.java:425)
+	at io.pedestal.interceptor.chain$process_all.invokeStatic(chain.clj:186)
+	at io.pedestal.interceptor.chain$process_all.invoke(chain.clj:182)
+	at io.pedestal.interceptor.chain$enter_all.invokeStatic(chain.clj:235)
+	at io.pedestal.interceptor.chain$enter_all.invoke(chain.clj:229)
+	at io.pedestal.interceptor.chain$execute.invokeStatic(chain.clj:379)
+	at io.pedestal.interceptor.chain$execute.invoke(chain.clj:352)
+	at io.pedestal.interceptor.chain$execute.invokeStatic(chain.clj:389)
+	at io.pedestal.interceptor.chain$execute.invoke(chain.clj:352)
+	at io.pedestal.http.impl.servlet_interceptor$interceptor_service_fn$fn__14000.invoke(servlet_interceptor.clj:350)
+	at io.pedestal.http.servlet.FnServlet.service(servlet.clj:28)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:838)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:543)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1228)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:481)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1130)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:564)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:318)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:112)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:672)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:590)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: clojure.lang.ArityException: Wrong number of args (1) passed to: core/get
+	at clojure.lang.AFn.throwArity(AFn.java:429)
+	at clojure.lang.AFn.invoke(AFn.java:32)
+	at simple_cljapi.service$vehicles_list.invokeStatic(service.clj:37)
+	at simple_cljapi.service$vehicles_list.invoke(service.clj:35)
+	at io.pedestal.interceptor$eval163$fn__164$fn__165.invoke(interceptor.clj:41)
+	at io.pedestal.interceptor.chain$try_f.invokeStatic(chain.clj:54)
+	... 39 common frames omitted
+16:37:23.964 [qtp1115240385-15] INFO  i.p.http.impl.servlet-interceptor - {:msg "sending error", :message "Internal server error: exception", :line 214}
+16:37:55.368 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @10098ms to org.eclipse.jetty.util.log.Slf4jLog
+16:37:55.625 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.0.v20161208
+16:37:55.670 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@306cb0a0{/,null,AVAILABLE}
+16:37:55.947 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@570fc662{HTTP/1.1,[http/1.1, h2c]}{localhost:8080}
+16:37:55.947 [main] INFO  org.eclipse.jetty.server.Server - Started @10680ms
+16:38:03.559 [qtp1243183327-15] INFO  io.pedestal.http - {:msg "GET /vehicles", :line 80}
+16:38:03.646 [qtp1243183327-15] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16:38:03.739 [qtp1243183327-15] INFO  org.mongodb.driver.cluster - No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=127.0.0.1:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+16:38:03.756 [cluster-ClusterId{value='5b24159b56e20b6a2d6a81d6', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:162}] to 127.0.0.1:27017
+16:38:03.759 [cluster-ClusterId{value='5b24159b56e20b6a2d6a81d6', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 5]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, roundTripTimeNanos=1170867}
+16:38:03.779 [qtp1243183327-15] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:163}] to 127.0.0.1:27017
+16:38:09.100 [qtp1243183327-12] INFO  io.pedestal.http - {:msg "GET /vehicles", :line 80}
+16:38:09.109 [qtp1243183327-12] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16:38:09.120 [qtp1243183327-12] INFO  org.mongodb.driver.cluster - No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=127.0.0.1:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+16:38:09.135 [cluster-ClusterId{value='5b2415a156e20b6a2d6a81d7', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:164}] to 127.0.0.1:27017
+16:38:09.142 [cluster-ClusterId{value='5b2415a156e20b6a2d6a81d7', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 5]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, roundTripTimeNanos=1777544}
+16:38:09.148 [qtp1243183327-12] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:4, serverValue:165}] to 127.0.0.1:27017
+16:38:14.373 [qtp1243183327-18] INFO  io.pedestal.http - {:msg "POST /vehicles", :line 80}
+16:38:14.419 [qtp1243183327-18] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16:38:14.490 [cluster-ClusterId{value='5b2415a656e20b6a2d6a81d8', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:5, serverValue:166}] to 127.0.0.1:27017
+16:38:14.496 [cluster-ClusterId{value='5b2415a656e20b6a2d6a81d8', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 5]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, roundTripTimeNanos=1928201}
+16:38:14.551 [qtp1243183327-18] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:6, serverValue:167}] to 127.0.0.1:27017
+16:38:17.227 [qtp1243183327-16] INFO  io.pedestal.http - {:msg "GET /vehicles", :line 80}
+16:38:17.233 [qtp1243183327-16] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16:38:17.250 [qtp1243183327-16] INFO  org.mongodb.driver.cluster - No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=127.0.0.1:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+16:38:17.268 [cluster-ClusterId{value='5b2415a956e20b6a2d6a81da', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:7, serverValue:168}] to 127.0.0.1:27017
+16:38:17.271 [cluster-ClusterId{value='5b2415a956e20b6a2d6a81da', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 5]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, roundTripTimeNanos=2001947}
+16:38:17.279 [qtp1243183327-16] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:8, serverValue:169}] to 127.0.0.1:27017
+16:38:27.885 [qtp1243183327-11] INFO  io.pedestal.http - {:msg "POST /vehicles", :line 80}
+16:38:27.886 [qtp1243183327-11] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16:38:27.896 [qtp1243183327-11] INFO  org.mongodb.driver.cluster - No server chosen by WritableServerSelector from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=127.0.0.1:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+16:38:27.909 [cluster-ClusterId{value='5b2415b356e20b6a2d6a81db', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:9, serverValue:170}] to 127.0.0.1:27017
+16:38:27.910 [cluster-ClusterId{value='5b2415b356e20b6a2d6a81db', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 5]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, roundTripTimeNanos=612020}
+16:38:27.934 [qtp1243183327-11] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:10, serverValue:171}] to 127.0.0.1:27017
+16:38:30.454 [qtp1243183327-17] INFO  io.pedestal.http - {:msg "GET /vehicles", :line 80}
+16:38:30.455 [qtp1243183327-17] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16:38:30.470 [qtp1243183327-17] INFO  org.mongodb.driver.cluster - No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=127.0.0.1:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+16:38:30.477 [cluster-ClusterId{value='5b2415b656e20b6a2d6a81dd', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:11, serverValue:172}] to 127.0.0.1:27017
+16:38:30.480 [cluster-ClusterId{value='5b2415b656e20b6a2d6a81dd', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 5]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, roundTripTimeNanos=1928684}
+16:38:30.495 [qtp1243183327-17] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:12, serverValue:173}] to 127.0.0.1:27017
+16:38:41.150 [qtp1243183327-15] INFO  io.pedestal.http - {:msg "POST /vehicles", :line 80}
+16:38:41.153 [qtp1243183327-15] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16:38:41.159 [qtp1243183327-15] INFO  org.mongodb.driver.cluster - No server chosen by WritableServerSelector from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=127.0.0.1:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+16:38:41.180 [cluster-ClusterId{value='5b2415c156e20b6a2d6a81de', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:13, serverValue:174}] to 127.0.0.1:27017
+16:38:41.186 [cluster-ClusterId{value='5b2415c156e20b6a2d6a81de', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 5]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, roundTripTimeNanos=3880291}
+16:38:41.232 [qtp1243183327-15] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:14, serverValue:175}] to 127.0.0.1:27017
+16:38:43.093 [qtp1243183327-18] INFO  io.pedestal.http - {:msg "GET /vehicles", :line 80}
+16:38:43.094 [qtp1243183327-18] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16:38:43.102 [qtp1243183327-18] INFO  org.mongodb.driver.cluster - No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=127.0.0.1:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+16:38:43.124 [cluster-ClusterId{value='5b2415c356e20b6a2d6a81e0', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:15, serverValue:176}] to 127.0.0.1:27017
+16:38:43.125 [cluster-ClusterId{value='5b2415c356e20b6a2d6a81e0', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 5]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, roundTripTimeNanos=739028}
+16:38:43.159 [qtp1243183327-18] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:16, serverValue:177}] to 127.0.0.1:27017
+16:38:46.681 [qtp1243183327-12] INFO  io.pedestal.http - {:msg "GET /vehicles", :line 80}
+16:38:46.683 [qtp1243183327-12] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16:38:46.686 [qtp1243183327-12] INFO  org.mongodb.driver.cluster - No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=127.0.0.1:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+16:38:46.701 [cluster-ClusterId{value='5b2415c656e20b6a2d6a81e1', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:17, serverValue:178}] to 127.0.0.1:27017
+16:38:46.703 [cluster-ClusterId{value='5b2415c656e20b6a2d6a81e1', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 5]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, roundTripTimeNanos=1082771}
+16:38:46.708 [qtp1243183327-12] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:18, serverValue:179}] to 127.0.0.1:27017
+16:38:49.555 [qtp1243183327-11] INFO  io.pedestal.http - {:msg "GET /vehicles", :line 80}
+16:38:49.556 [qtp1243183327-11] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16:38:49.564 [qtp1243183327-11] INFO  org.mongodb.driver.cluster - No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=127.0.0.1:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+16:38:49.577 [cluster-ClusterId{value='5b2415c956e20b6a2d6a81e2', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:19, serverValue:180}] to 127.0.0.1:27017
+16:38:49.581 [cluster-ClusterId{value='5b2415c956e20b6a2d6a81e2', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 5]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, roundTripTimeNanos=1463667}
+16:38:49.625 [qtp1243183327-11] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:20, serverValue:181}] to 127.0.0.1:27017
